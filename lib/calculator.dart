@@ -79,7 +79,7 @@ class Calculator extends StatelessWidget {
               children: <Widget>[
                 Container(
                   width: double.infinity,
-                  margin: EdgeInsets.only(top: 75, bottom: 5),
+                  margin: EdgeInsets.only(top: 65, bottom: 5),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: <Widget>[
