@@ -62,7 +62,8 @@ class Calculator extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.dark.copyWith(
-      statusBarColor: Colors.white,
+      statusBarColor: Palette.black,
+      statusBarIconBrightness: Brightness.light,
       statusBarBrightness: Brightness.dark
     ));
 
