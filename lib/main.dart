@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
       title: 'Calculator',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.orange,
+        primarySwatch: Colors.blue,
         fontFamily: 'Sofia Pro'
       ),
       home: Calculator()
